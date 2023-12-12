@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="logo" src="./assets/logo.png" alt="logo-converter">
+
+    <main class="quadro">
+        <label>
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            DE
+        </label>
+        <select class="currency-1">
+            <option value="real">Real (R$)</option>
+            <option value="dollar">Dollar ($)</option>
+            <option value="euro">Euro (€)</option>
+            <option value="libra">Libra (£)</option>
+            <option value="yen">Yen (¥)</option>
+            <option value="bitcoin">Bitcoin (₿)</option>
+        </select>
+
+        <label>
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            PARA
+        </label>
+        <select class="currency-2">
+            <option value="dollar">Dollar ($)</option>
+            <option value="euro">Euro (€)</option>
+            <option value="libra">Libra (£)</option>
+            <option value="real">Real (R$)</option>
+            <option value="yen">Yen (¥)</option>
+            <option value="bitcoin">Bitcoin (₿)</option>
+        </select>
+
+        <label>
+            <i class="fa-solid fa-dollar-sign"></i>
+            VALOR</label>
+        <input class="valor" type="number" placeholder="Digite o valor a ser convertido">
+
+        <button>Converter</button>
+
+        <section class="amostra">
+            <div class="left">
+                <img class="flag-left" src="./assets/real.png" alt="logo-moeda-converter">
+                <p class="nome-amostra-left">Real</p>
+                <p class="valor-amostra-left">R$ 0,00</p>
+            </div>
+
+            <img class="arrow" src="./assets/seta-direita-azul.png" alt="">
+
+            <div class="right">
+                <img class="flag-right" src="./assets/dollar.png" alt="logo-moeda-convertida">
+                <p class="nome-amostra-right">Dollar</p>
+                <p class="valor-amostra-right">US$ 0,00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="https://www.linkedin.com/in/willian-p-santos/" target="_blank">Desenvolvido por Willian P Santos</a></p>
+    </footer>
+
+</body>
+<script src="https://kit.fontawesome.com/d2b741dfe0.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
+</html>
