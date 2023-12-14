@@ -17,11 +17,11 @@ const valueConverted = document.querySelector('.valor-amostra-right') //VALOR DA
 function calculate() {
     //VALORES REFERÊNCIA PARA BASE DE CÁLCULO (TODOS ESTÃO CONVERTIDOS PARA DOLLAR)
     const refDollar = 1
-    const refEuro = 1.0774
-    const refLibra = 1.2548
-    const refReal = 0.2028
-    const refYen = 0.0069
-    const refBitcoin = 43714.90
+    const refEuro = 1.0908
+    const refLibra = 1.2649
+    const refReal = 0.2033
+    const refYen = 0.0071
+    const refBitcoin = 42809.70
 
     // IDENTIFICA A MOEDA 1 E APLICA O VALOR REFERÊNCIA NA VARIÁVEL ABAIXO
     let refValue1 = 0 //VARIÁVEL QUE RECEBE O VALOR REFERÊNCIA
