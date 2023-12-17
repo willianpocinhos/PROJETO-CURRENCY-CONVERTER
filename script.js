@@ -39,7 +39,7 @@ async function calculate() {
     const refIene = (data.JPYUSD['bid']) / 100
     const refBitcoin = data.BTCUSD['bid']
 
-
+    //BUSCA DATA E HORA DA ATUALIZAÇÃO BTCUSD
     date = data.BTCUSD['create_date']
     update.innerHTML = `Atualizado em ${date}`
 
