@@ -13,6 +13,7 @@ As setinhas de inversão, localizadas entre os campos de seleção, que faz com 
 Esse projeto é responsivo para diferentes tipos de telas.
 <br>
 <br>
+Agradeço muito ao amigo <a href='https://github.com/lauropjdutra'>Lauro Dutra</a>, que me ajudou na implementação dos códigos para o cosumo da API
 Tecnologias utilizadas: HTML, CSS e JavaScript
 <img src='https://github.com/willianpocinhos/PROJETO-CURRENCY-CONVERTER/blob/master/assets/currency-converter_mockup.png?raw=true' alt='currency-converter-mockup'>
 
